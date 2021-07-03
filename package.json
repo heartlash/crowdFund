@@ -1,0 +1,23 @@
+{
+  "name": "crowdfund",
+  "version": "1.0.0",
+  "description": "Smart contract for crowdfunding project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 2000000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "ganache-cli": "^6.12.2",
+    "install": "^0.13.0",
+    "npm": "^7.18.1",
+    "solc": "^0.8.5",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  }
+}
